@@ -1,0 +1,45 @@
+# Site settings
+title: Alessio Angilletta
+email: alessioangilletta@gmail.com
+url: http://alessioangilletta.github.io
+phone: +1 (682) 253-2483
+description: "I am gay and ugly"
+owner: Alessio Angilletta
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble,
+# pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: google-plus
+    url: https://plus.google.com/+
+  - title: github-alt
+    url: http://github.com/
+  - title: linkedin
+    url: https://www.linkedin.com/in/
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: Yale University,
+  - line: Computer Science Department,
+  - line: New Haven, 06511, CT, U.S.A.
+
+# Build settings
+markdown: kramdown
+kramdown:
+  syntax_highlighter: rouge
+  highlighter: rouge
+  toc_levels: "1,2,3"
+permalink: pretty
+plugins:
+  - jekyll-sitemap
+  - rouge
+  - jekyll-seo-tag
+  #- jemoji
+  #- jekyll-mentions
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"
+
