@@ -187,4 +187,14 @@ function init() {
     map: map,
     icon: image
   });
+
+:target:before {
+content:"";
+display:block;
+height:90px; /* fixed header height*/
+margin:-90px 0 0; /* negative fixed header height */
+}
+
+
+
 }
