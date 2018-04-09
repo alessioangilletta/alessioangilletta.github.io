@@ -72,8 +72,6 @@ a {
       background-color: transparent; }
   @media (min-width: 992px) {
     #mainNav {
-      padding-top: 0px;
-      padding-bottom: 0px;
       -webkit-transition: background 0.3s ease-in-out;
       -moz-transition: background 0.3s ease-in-out;
       transition: background 0.3s ease-in-out;
@@ -142,7 +140,7 @@ a {
   padding-bottom: 150px; }
 
 .download-section {
-  height: 100%;
+  height: calc(100vh - 40px);
   color: white;
   background-color: black;
   -webkit-background-size: cover;
