@@ -394,7 +394,7 @@ template {
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-  margin-bottom: 0rem;
+  margin-bottom: 0.5rem;
   font-family: inherit;
   font-weight: 500;
   line-height: 1.1;
@@ -3267,7 +3267,8 @@ tbody.collapse.show {
 
 .navbar-brand {
   display: inline-block;
-  
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
   margin-right: 1rem;
   font-size: 1.25rem;
   line-height: inherit;
@@ -3455,8 +3456,8 @@ tbody.collapse.show {
     left: auto;
   }
   .navbar-expand-lg .navbar-nav .nav-link {
-    padding-right: .95rem;
-    padding-left: .95rem;
+    padding-right: .5rem;
+    padding-left: .5rem;
   }
   .navbar-expand-lg > .container,
   .navbar-expand-lg > .container-fluid {
@@ -5013,7 +5014,6 @@ button.close {
 
 .carousel {
   position: relative;
-  height: calc(100vh - 40px);
 }
 
 .carousel-inner {
@@ -5028,9 +5028,9 @@ button.close {
   -ms-flex-align: center;
       align-items: center;
   width: 100%;
-  transition: -webkit-transform 2s ease;
+  transition: -webkit-transform 0.6s ease;
   transition: transform 0.6s ease;
-  transition: transform 2s ease, -webkit-transform 2s ease;
+  transition: transform 0.6s ease, -webkit-transform 0.6s ease;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
   -webkit-perspective: 1000px;
@@ -5102,7 +5102,7 @@ button.close {
       align-items: center;
   -ms-flex-pack: center;
       justify-content: center;
-  width: 5%;
+  width: 15%;
   color: #fff;
   text-align: center;
   opacity: 0.5;
@@ -5145,7 +5145,7 @@ button.close {
 .carousel-indicators {
   position: absolute;
   right: 0;
-  bottom: 30px;
+  bottom: 10px;
   left: 0;
   z-index: 15;
   display: -ms-flexbox;
@@ -6781,8 +6781,7 @@ a.bg-dark:focus, a.bg-dark:hover {
 
 .mx-auto {
   margin-right: auto !important;
-  margin-bottom: 50px;
- 
+  margin-left: auto !important;
 }
 
 .my-auto {
@@ -8020,7 +8019,9 @@ a.bg-dark:focus, a.bg-dark:hover {
   text-align: right !important;
 }
 
-
+.text-center {
+  text-align: center !important;
+}
 
 @media (min-width: 576px) {
   .text-sm-left {
